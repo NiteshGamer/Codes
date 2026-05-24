@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>SECURITY BREACH</title>
+
+<style>
+body{
+    margin:0;
+    background:red;
+    overflow:hidden;
+    animation:flash 0.5s infinite;
+}
+
+@keyframes flash{
+    0%{background:#ff0000;}
+    50%{background:#330000;}
+    100%{background:#ff0000;}
+}
+
+h1{
+    color:white;
+    font-size:80px;
+    text-align:center;
+    margin-top:20%;
+    font-family:Arial;
+    text-shadow:0 0 20px black;
+}
+</style>
+
+<script>
+function goFullScreen(){
+    var el=document.documentElement;
+
+    if(el.requestFullscreen){
+        el.requestFullscreen();
+    }
+}
+</script>
+
+</head>
+
+<body onclick="goFullScreen()">
+<h1>SECURITY BREACH DETECTED️</h1>
+</body>
+</html>

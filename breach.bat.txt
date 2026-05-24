@@ -1,0 +1,19 @@
+@echo off
+title SECURITY BREACH
+:top
+color 4
+cls
+echo.
+echo #########################################
+echo #                                       #
+echo #      !!! SECURITY BREACH !!!          #
+echo #                                       #
+echo #   Unauthorized Access Detected        #
+echo #                                       #
+echo #########################################
+timeout /t 1 >nul
+
+color 0
+cls
+timeout /t 1 >nul
+goto top
