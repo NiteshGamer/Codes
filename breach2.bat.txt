@@ -1,0 +1,22 @@
+@echo off
+title CYBER ATTACK DETECTED
+:loop
+
+color 4f
+cls
+echo ACCESSING SECURE DATABASE...
+echo.
+echo WARNING: FIREWALL BREACHED
+echo TRACKING IP...
+echo EXTRACTING DATA...
+ping localhost -n 2 >nul
+
+color cf
+cls
+echo.
+echo !!! SYSTEM COMPROMISED !!!
+echo.
+echo INITIATING COUNTERMEASURES...
+ping localhost -n 2 >nul
+
+goto loop
