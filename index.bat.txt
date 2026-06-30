@@ -1,0 +1,18 @@
+@echo off
+color 0A
+title SYSTEM CONSOLE
+
+echo Initializing...
+echo.
+dir /s
+tree
+ver
+hostname
+whoami
+ipconfig
+netstat -an
+tasklist
+systeminfo
+echo.
+echo Scanning...
+ping 127.0.0.1 -t
